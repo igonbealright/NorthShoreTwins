@@ -37,10 +37,3 @@ st.plotly_chart(graph)
 if coordinates:
     st.write("現在の入力座標:")
     st.write(coordinates)
-
-
-clicked_points = st.plotly_events(fig)
-
-# クリックしたデータを表示
-if clicked_points:
-    st.write(f"Clicked point: {clicked_points}")
